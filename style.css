@@ -18,19 +18,19 @@ body , html{
     background-position: center;
 }
 .pmg1{
-    background-image: url('../Parallax/images/NewYo.jpg');
+    background-image: url('/images/NewYo.jpg');
     min-height: 100%;
 
 }
 
 .pmg2{
-    background-image: url('../Parallax/images/buildings.jpg');
+    background-image: url('/images/buildings.jpg');
     min-height: 400px;
    
 }
 
 .pmg3{
-    background-image: url('../Parallax/images/new_york.jpg');
+    background-image: url('/images/new_york.jpg');
     height: 400px;
     
 }
@@ -63,8 +63,23 @@ body , html{
     padding: 20px;
     border-radius: 10px;
 }
-@media(max-width:560px){
+@media(max-width:600px){
     .pmg1, .pmg2, .pmg3{
         background-attachment: scroll;
+    }
+    .ptext{
+        position: absolute;
+        top: 50%;
+        width: 600px;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+    }
+    .ptext .border{
+        background-color: rgba(17, 17, 17, 0.452);
+        color: wheat;
+        padding: 20px;
+        border-radius: 10px;
     }
 }
