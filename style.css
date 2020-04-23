@@ -62,20 +62,15 @@ body , html{
     padding: 20px;
     border-radius: 10px;
 }
-@media(max-width:600px){
+@media(max-width:800px){
     .pmg1, .pmg2, .pmg3{
-        background-position: center;
-        background-attachment: scroll;
+       
+        position: relative;
         background-size: cover;
+        background-attachment: scroll;
     }
-    .ptext{
-        position: absolute;
-        top: 50%;
-        width: 150%;
-        text-align: center;
-        font-size: 15px; 
-        letter-spacing: 6px;
-        text-transform: uppercase;
+    .ptext .border{
+        background-color: transparent;
+        color:antiquewhite;
     }
-    
 }
