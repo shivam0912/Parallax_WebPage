@@ -1,0 +1,70 @@
+body , html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato" ,sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.pmg1, .pmg2, .pmg3{
+    
+    position: relative;
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+}
+.pmg1{
+    background-image: url('../Parallax/images/NewYo.jpg');
+    min-height: 100%;
+
+}
+
+.pmg2{
+    background-image: url('../Parallax/images/buildings.jpg');
+    min-height: 400px;
+   
+}
+
+.pmg3{
+    background-image: url('../Parallax/images/new_york.jpg');
+    height: 400px;
+    
+}
+.section{
+    text-align: center;
+    padding: 10px 80px;
+}
+.section-light{
+    background-color: #3f2afcaf;
+    color: rgba(0, 0, 0, 0.589);
+}
+.section-arch{
+    background-color: rgba(131, 129, 127, 0.315);
+}
+.section-york{
+    background-color: rgba(255, 187, 0, 0.356);
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.ptext .border{
+    background-color: rgba(17, 17, 17, 0.452);
+    color: wheat;
+    padding: 20px;
+    border-radius: 10px;
+}
+@media(max-width:560px){
+    .pmg1, .pmg2, .pmg3{
+        background-attachment: scroll;
+    }
+}
